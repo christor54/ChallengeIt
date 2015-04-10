@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.challengeit.android.ui.activity.CreateChallengeActivity">
+    <item android:id="@+id/validate_response" android:title="create"
+        android:icon="@drawable/checkmarck_basic_black"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:showAsAction="always"/>
+
+</menu>
+<!-- From: file:/C:/Users/christophe/Documents/challengeit/app-ci/src/main/res/menu/menu_create_response.xml -->

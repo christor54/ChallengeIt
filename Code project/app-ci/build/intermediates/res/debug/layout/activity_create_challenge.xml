@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.challengeit.android.ui.activity.CreateChallengeActivity">
+
+    <EditText
+        android:id="@+id/title_challenge"
+        android:layout_marginTop="15dp"
+        android:hint="title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/description_challenge"
+        android:hint="short description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/content_message"
+        android:hint="Describe the challenge"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/christophe/Documents/challengeit/app-ci/src/main/res/layout/activity_create_challenge.xml -->

@@ -1,0 +1,17 @@
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\classes\debug
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-01b13ed812e16b66ad3623def06613015f45c9fb.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.19.0-70c22fdf1750249d4bc5b8e8f49394002d5e5eb5.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-api-client-android-1.19.0-b4b8bcff835134dd336cb8372b7d746fab58cb67.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-http-client-android-1.19.0-2d0419258580018b698f7e42549a1dbe58be8719.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\jsr305-1.3.9-8c100c5a2a551f3f3b374ec4db6f089aadc85573.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-oauth-client-1.19.0-5089c052d33e01cf1f9863bd5395305a4c593772.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\backend-android-endpoints-45b226329b6adc013819167b8b484bc3ea093c40.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-5a09679d90d6ee6c07aee39081d8bd4611b9cec9.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-api-client-1.19.0-8bb735d592b6d5a768e88f7cdf94242c955da1de.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-http-client-1.19.0-33217e28a92edb32cebc427545f19554a315c568.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\jackson-core-2.1.3-03f16ca58c48d695f48eaec9f452f04688d41a6b.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\classes-5b240f74aa310f3e898b10ca02858bece56590b2.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\classes-5c241202addb3762467e16990be584e6d7dc4931.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\lombok-1.12.6-6f601d0fa1420cb1b58f72db635b7160bec76c56.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-42df01956baee36973afacc5387c5e3d0ba5a99a.jar
+C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\classes-721e3b1d5987a078ea41ba2bb7995160a9ab3d68.jar

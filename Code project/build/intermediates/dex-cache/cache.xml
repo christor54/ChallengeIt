@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.19.0-70c22fdf1750249d4bc5b8e8f49394002d5e5eb5.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.0\6a21277d9bebe267b7ddee028b241eebc756c040\google-api-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-api-client-1.19.0-8bb735d592b6d5a768e88f7cdf94242c955da1de.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.0\ba2aafb867f6af469f936ae76426cf0a280094bd\google-api-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-api-client-android-1.19.0-b4b8bcff835134dd336cb8372b7d746fab58cb67.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\classes-5b240f74aa310f3e898b10ca02858bece56590b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\jackson-core-2.1.3-03f16ca58c48d695f48eaec9f452f04688d41a6b.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-01b13ed812e16b66ad3623def06613015f45c9fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\classes-721e3b1d5987a078ea41ba2bb7995160a9ab3d68.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-5a09679d90d6ee6c07aee39081d8bd4611b9cec9.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-oauth-client-1.19.0-5089c052d33e01cf1f9863bd5395305a4c593772.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\org.projectlombok\lombok\1.12.6\f5df0f60aa42762a86e31e29892da07c5aaa0c71\lombok-1.12.6.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f5df0f60aa42762a86e31e29892da07c5aaa0c71">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\lombok-1.12.6-6f601d0fa1420cb1b58f72db635b7160bec76c56.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-http-client-1.19.0-33217e28a92edb32cebc427545f19554a315c568.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\guava-jdk5-13.0-42df01956baee36973afacc5387c5e3d0ba5a99a.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\jsr305-1.3.9-8c100c5a2a551f3f3b374ec4db6f089aadc85573.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\google-http-client-android-1.19.0-2d0419258580018b698f7e42549a1dbe58be8719.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\classes-5c241202addb3762467e16990be584e6d7dc4931.jar" />
+    </item>
+    <item
+        jar="C:\Users\christophe\Documents\challengeit\backend\build\libs\backend-android-endpoints.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="735922e48902c1030b628d1bfdca4cbb14ad6fa7">
+        <dex dex="C:\Users\christophe\Documents\challengeit\app-ci\build\intermediates\pre-dexed\debug\backend-android-endpoints-45b226329b6adc013819167b8b484bc3ea093c40.jar" />
+    </item>
+
+</items>

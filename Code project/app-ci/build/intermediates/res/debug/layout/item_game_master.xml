@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_item"
+    android:layout_marginBottom="1dp"
+    android:paddingLeft="10dp"
+    android:background="@color/item_list_master_background"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:text="Math"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_list_title" >
+    </TextView>
+    <TextView
+        android:id="@+id/game_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/game_title"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="100dp"
+        android:text=" "
+        android:textSize="@dimen/text_size_list_subtitle" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/game_number_challenge_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/item_list_background"
+        android:textColor="#999"
+        android:textStyle="bold"
+        android:paddingRight="4dp"
+        android:text="0"
+        android:textSize="@dimen/text_size_challenge_points_value" >
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/game_number_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:paddingRight="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@color/master_notification"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="0"
+        android:textSize="@dimen/text_size_game_number_message" />
+
+
+</RelativeLayout><!-- From: file:/C:/Users/christophe/Documents/challengeit/app-ci/src/main/res/layout/item_game_master.xml -->

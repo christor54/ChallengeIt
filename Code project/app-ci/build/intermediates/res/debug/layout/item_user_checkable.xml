@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_item_user"
+    android:gravity="center_vertical"
+    android:background="@color/item_list_background">
+
+
+    <ImageView
+        android:layout_width="@dimen/height_item_user"
+        android:layout_height="@dimen/height_item_user"
+        android:src="@drawable/profile_picture_chris"
+        android:id="@+id/user_profile_icon" />
+
+
+    <CheckedTextView
+        android:id="@+id/user_name_checkable_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/user_profile_icon"
+        android:layout_marginLeft="12dp"
+        android:textSize="@dimen/text_size_user_name"
+        android:gravity="center_vertical"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:text="Mickey">
+
+    </CheckedTextView>
+</RelativeLayout><!-- From: file:/C:/Users/christophe/Documents/challengeit/app-ci/src/main/res/layout/item_user_checkable.xml -->

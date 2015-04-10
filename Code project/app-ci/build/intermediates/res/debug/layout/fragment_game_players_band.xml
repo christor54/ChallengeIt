@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!---->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+<!--</ScrollView>-->
+
+
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridview"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:columnWidth="90dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="30dp"
+    android:horizontalSpacing="5dp"
+    />
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" >-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/game_player_band_text_background"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:background="#64e6e6e6"-->
+        <!--android:textSize="40sp"-->
+        <!--android:text="Player Rank"/>-->
+
+<!--</LinearLayout>-->
+
+
+
+
+
+<!-- From: file:/C:/Users/christophe/Documents/challengeit/app-ci/src/main/res/layout/fragment_game_players_band.xml -->
