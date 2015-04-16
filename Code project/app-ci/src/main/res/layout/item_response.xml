@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_item" >
+    <TextView
+        android:id="@+id/response_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:text="FIBONACCI"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_list_title" >
+    </TextView>
+    <TextView
+        android:id="@+id/response_item_time_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/height_item"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="3 DAYS AGO"
+        android:textColor="#529024"
+        android:textSize="@dimen/text_size_list_subtitle" >
+    </TextView>
+    <TextView
+        android:id="@+id/response_item_description"
+        android:layout_width="wrap_content"
+        android:text="description response"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/response_item_title"
+        android:layout_marginRight="100dp"
+        android:textSize="@dimen/text_size_list_subtitle" >
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/response_item_media_preview"
+        android:layout_width="@dimen/height_item"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/christophe_profile_facebook" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/response_author_name"
+        android:text="chris"
+        android:textColor="#ffffd700"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

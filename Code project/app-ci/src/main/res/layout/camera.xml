@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fragment_layout">
+
+<!--    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_fragment"
+        android:layout_gravity="top"
+        class="com.challengeit.android.ui.fragment.Write_text_Fragment"
+        />-->
+    <FrameLayout
+    	        android:id="@+id/text_layout"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_layout">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/camera_preview">
+
+
+
+    </FrameLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_to_swipe"
+            android:alpha="0.7"
+            android:src="@drawable/reduce_button"
+            android:background="@null"
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="DragCamera"/>
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:layout_gravity="right|top"
+            android:textSize="@dimen/text_size_list_title"
+            android:layout_alignEnd="@id/camera_preview"
+            android:textColor="#ff2429"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+    <ImageButton
+    android:id="@+id/button_capture"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:onClick="OnClick"
+    android:alpha="0.5"
+    android:src="@drawable/camera"
+    android:background="@null"
+
+    android:visibility="visible" />
+
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+        android:id="@+id/button_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="OnClickVideo"
+        android:alpha="0.5"
+            android:src="@drawable/video_icon"
+        android:background="@null"
+
+        android:visibility="visible" />
+    </LinearLayout>
+
+
+ <!-- 	 <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_capture"
+        android:hint="@string/message" />-->
+
+</RelativeLayout>

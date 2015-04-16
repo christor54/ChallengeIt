@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_a_friend_fragment">
+
+        <TextView
+            android:id="@+id/add_a_friend_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_activity_horizontal"
+            android:layout_marginLeft="@dimen/margin_side_titles"
+            android:layout_marginRight="@dimen/margin_side_titles"
+            android:textColor="@color/title_before_edit_text"
+            android:textSize="@dimen/text_size_title_before_edit_text"
+            android:textStyle="bold"
+            android:text="@string/title_add_a_friend"/>
+
+        <FrameLayout
+            android:id="@+id/blue_line_fragment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@color/title_before_edit_text"
+            android:layout_below="@+id/add_a_friend_title"></FrameLayout>
+
+        <EditText
+            android:id="@+id/add_a_friend"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blue_line_fragment_layout"
+            android:layout_marginLeft="@dimen/margin_side_titles"
+            android:layout_marginRight="@dimen/margin_side_titles"
+            android:textColor="@color/title_before_edit_text"
+            android:textSize="@dimen/text_size_title_before_edit_text"
+            android:textStyle="bold"
+            android:hint="Enter friend username"
+            android:layout_toStartOf="@+id/add_a_friend_button" />
+
+        <Button
+            android:id="@+id/add_a_friend_button"
+            android:layout_width="80dp"
+            android:layout_margin="1dp"
+            android:layout_height="wrap_content"
+            android:background="#ff0f84e0"
+            android:text="OK"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:layout_alignTop="@+id/blue_line_fragment_layout"
+            android:layout_alignBottom="@id/add_a_friend"
+            android:layout_alignParentRight="true"
+             />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title_list_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_activity_horizontal"
+        android:layout_marginLeft="@dimen/margin_side_titles"
+        android:layout_marginRight="@dimen/margin_side_titles"
+        android:textColor="@color/title_before_edit_text"
+        android:textSize="@dimen/text_size_title_before_edit_text"
+        android:textStyle="bold"
+        android:text="Your friends"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_layout_line_title_list_friend"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="@color/title_before_edit_text"
+        android:layout_below="@+id/add_a_friend_title"></FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@android:id/empty"
+            android:text="   No friends"
+            android:textStyle="italic"
+            android:layout_margin="15dp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</LinearLayout>

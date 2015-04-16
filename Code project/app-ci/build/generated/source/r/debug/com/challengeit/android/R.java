@@ -1820,6 +1820,7 @@ containing a value of this type.
         public static final int editTextMessage=0x7f090076;
         public static final int edit_challenges=0x7f090094;
         public static final int edit_query=0x7f090047;
+        public static final int edit_responses=0x7f09009e;
         public static final int end=0x7f090014;
         public static final int expand_activities_button=0x7f090036;
         public static final int expanded_menu=0x7f09003c;

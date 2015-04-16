@@ -552,6 +552,7 @@ int id dropdown 0x7f090021
 int id editTextMessage 0x7f090076
 int id edit_challenges 0x7f090094
 int id edit_query 0x7f090047
+int id edit_responses 0x7f09009e
 int id end 0x7f090014
 int id expand_activities_button 0x7f090036
 int id expanded_menu 0x7f09003c

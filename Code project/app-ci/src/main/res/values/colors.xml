@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <color name="item_list_background">#fdfdfd</color>
+    <color name="item_list_player_background">#fdfdfd</color>
+    <color name="item_list_master_background">#fdfdfd</color>
+    <color name="player_point_to_be_earned">#4c8bff</color>
+    <color name="player_current_characteristics">#8cbc68</color>
+    <color name="master_notification">#ffd1373d</color>
+    <color name="title_before_edit_text">#ff0f84e0</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

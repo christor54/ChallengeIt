@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_item" >
+    <TextView
+        android:id="@+id/challenge_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:text="FIBONACCI"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_list_title" >
+    </TextView>
+    <TextView
+        android:id="@+id/challenge_item_time_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/height_item"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="3 DAYS LEFT"
+        android:textColor="#529024"
+        android:textSize="@dimen/text_size_list_subtitle" >
+    </TextView>
+    <TextView
+        android:id="@+id/challenge_item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/challenge_item_title"
+        android:layout_marginRight="100dp"
+        android:textSize="@dimen/text_size_list_subtitle" >
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/challenge_item_media_preview"
+        android:layout_width="@dimen/height_item"
+        android:layout_height="@dimen/height_item"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/defaut_challenge_question" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/challenge_item_point_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/challenge_item_media_preview"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:background="@color/player_point_to_be_earned"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingRight="4dp"
+        android:text="1 000"
+        android:textSize="@dimen/text_size_challenge_points_value" >
+    </TextView>
+
+
+
+</RelativeLayout>
